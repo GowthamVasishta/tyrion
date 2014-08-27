@@ -5,5 +5,51 @@
  * @file          reset.css
  */
  
- html, body { margin:0; padding:0;}
- 
+ html, body { 
+	margin:0; 
+	padding:0;
+}
+ div, span, div, p , h1, h2, h3, h4, h5, h6,
+ a, img, font, blockquote, abbr, pre, address,
+ acronym, big, small, cite, code, del, dl, dt,
+ dd, ol, ul, li,kbd, q, s,samp, sup,strike, 
+ strong, fieldset, label, form, legend, table,
+ caption, tbod, tfoot, thead, tr, th, td,
+ iframe, object, article, aside, details, figure,
+ figcaption, header, nav, footer, dialog, 
+ hgroup, menu, section, ins, sub, sup, tt, var {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-family: inherit;
+}
+
+body {
+	line-height: 1.7;
+	color: #333;
+	background: #ffffff;
+}
+
+table {
+	border-collapse:seperate;
+	border-spacing:0;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote:before, blockquote:after,
+ q:before, q:after {
+	content: " ";
+}
+
+blcokquote, q {
+	quotes: " ";
+}
+
+:focus {
+	outline: 0;
+}
