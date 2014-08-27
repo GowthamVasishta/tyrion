@@ -25,6 +25,14 @@ color:#333;
 background:#fff;
 }
 
+audio, canvas, video {
+display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+}
+
 table {
 border-collapse:seperate;
 border-spacing:0;
