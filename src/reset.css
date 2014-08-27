@@ -1,0 +1,9 @@
+/*
+ * Tyrion -  css framework
+ * @package       tyrion
+ * @author        R Gowtham Vasishta
+ * @file          reset.css
+ */
+ 
+ html, body { margin:0; padding:0;}
+ 
