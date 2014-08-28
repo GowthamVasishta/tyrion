@@ -1,0 +1,112 @@
+/**
+ * Tyrion -  css framework
+ * @package       tyrion
+ * @copyright     © 2014-2015, R Gowtham Vasishta
+ * @file          reset.css
+ * @license       MIT license
+ */
+ 
+/**
+ * Remove default margin and padding
+ */
+
+html,body {
+margin:0;
+padding:0;
+}
+
+/** 
+ * display as block elements in all browsers, especially IE 8
+ */
+
+div,span,div,p,h1,h2,h3,h4,h5,h6,a,img,font,blockquote,abbr,pre,address,acronym,big,small,cite,code,del,dl,dt,dd,ol,ul,li,kbd,q,s,samp,sup,strike,strong,fieldset,label,form,legend,table,caption,tbod,tfoot,thead,tr,th,td,iframe,object,article,aside,details,figure,figcaption,header,nav,footer,dialog,hgroup,menu,section,ins,sub,sup,tt,var {
+display:block;
+font-size:100%;
+font-family:inherit;
+margin:0;
+padding:0;
+}
+
+/**
+ * 1. set default line height of 1.7
+ * 2. prevent system color scheme's text color and background color
+ * 3. prevent ios text size adjust after orientation change
+ */
+
+body {
+line-height:1.7;
+color:#333;
+background:#fff;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+/**
+ * displays as inline blocks
+ */
+
+audio, canvas, video {
+display: inline-block;
+}
+
+/**
+ * 1. Do not display audio without controls
+ * 2. remove excess height in ios
+ */
+
+audio:not([controls]) {
+display: none;
+height:0;
+}
+
+/**
+ * address styling absent in IE 8/9
+ */
+[hidden] {
+  display: none;
+}
+
+/**
+ * Remove extra spaces
+ */
+
+table {
+border-collapse: collapse;
+border-spacing:0;
+}
+
+/**
+ * float 
+ */
+
+caption,th,td {
+text-align:left;
+font-weight: normal;
+float:none; !important
+}
+
+/**
+ * Remove quotes ("")
+ */
+
+blockquote:before,blockquote:after,q:before,q:after {
+content:' ';
+}
+
+/**
+ * Remove quotes ("")
+ */
+
+blockquote,q {
+quotes:"" "";
+}
+
+/**
+ * define the style of your current target element
+ */
+
+:focus {
+outline:0;
+}
+
+

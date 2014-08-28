@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> tyrion </title>
+<link href="reset.css" media="all" rel="stylesheet" type="text/css" />
+<link href="typography.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1>Typography</h1>
+<h2> a css framework </h2>
+<h3> a css framework </h3>
+<h4> a css framework </h4>
+<h5> a css framework </h5>
+<h6> a css framework </h6>
+
+<p>This is a paragraph <br/> This is next line of the paragraph </p>
+<p>This is a another paragraph </p>
+</body>
+</html>
